@@ -1,5 +1,5 @@
 [PouchDB](https://pouchdb.com/) – The Database that Syncs!
-=========
+===========================================================
 
 [![Build Status](https://github.com/pouchdb/pouchdb/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/pouchdb/pouchdb/actions/workflows/ci.yml?query=branch%3Amaster) [![Coverage Status](https://s3.amazonaws.com/assets.coveralls.io/badges/coveralls_100.svg)](https://coveralls.io/github/pouchdb/pouchdb?branch=master) [![Greenkeeper badge](https://badges.greenkeeper.io/pouchdb/pouchdb.svg)](https://greenkeeper.io/) [![npm version](https://img.shields.io/npm/v/pouchdb.svg)](https://www.npmjs.com/package/pouchdb) [![jsDelivr Hits](https://data.jsdelivr.com/v1/package/npm/pouchdb/badge?style=rounded)](https://www.jsdelivr.com/package/npm/pouchdb)
 
@@ -20,18 +20,17 @@ The PouchDB community is active [on Libera IRC](ircs://irc.libera.chat:6697) [(w
 If you think you've found a bug in PouchDB, please write a reproducible test case and file [a Github issue](https://github.com/pouchdb/pouchdb/issues). You can start with a [template we have built on glitch](https://glitch.com/~pouchdb-bug-helper).
 
 Prerelease builds
-----
+-----------------
 
 If you like to live on the bleeding edge, you can build PouchDB from source using these steps:
 
-    git clone https://github.com/pouchdb/pouchdb.git
-    cd pouchdb
-    npm install
-
+git clone https://github.com/pouchdb/pouchdb.git
+cd pouchdb
+npm install
 After running these steps, the browser build can be found in `packages/node_modules/pouchdb/dist/pouchdb.js`.
 
 Changelog
-----
+---------
 
 PouchDB follows [semantic versioning](http://semver.org/). To see a changelog with all PouchDB releases, check out the [Github releases page](https://github.com/pouchdb/pouchdb/releases).
 
